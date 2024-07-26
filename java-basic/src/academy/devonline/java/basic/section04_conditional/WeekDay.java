@@ -24,7 +24,7 @@ public class WeekDay {
         } else if (day == 7) {
             result = "Sunday";
         } else {
-            result = "Вы ввели не корректное число" + day;
+            result = "Вы ввели не корректное число " + day;
         }
         // display result
         System.out.println(result);

@@ -7,6 +7,7 @@ public class WeekDay {
         // read source date
         System.out.println("Введите номер дня недели:");
         var day = new Scanner(System.in).nextInt();
+
         // processing
         String result;
         if (day == 1) {
@@ -26,6 +27,7 @@ public class WeekDay {
         } else {
             result = "Вы ввели не корректное число " + day;
         }
+
         // display result
         System.out.println(result);
     }
